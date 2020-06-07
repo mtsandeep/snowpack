@@ -73,6 +73,7 @@
     "glob": "^7.1.4",
     "got": "^11.1.4",
     "http-proxy": "^1.18.1",
+    "inquirer": "^7.1.0",
     "is-builtin-module": "^3.0.0",
     "jsonschema": "^1.2.5",
     "mime-types": "^2.1.26",
