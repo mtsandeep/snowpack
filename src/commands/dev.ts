@@ -238,6 +238,8 @@ export async function command(commandOptions: CommandOptions) {
       default: true,
     };
     const answer = await inquirer.prompt(question);
+    // because of the question, we will reset the starting time here
+    serverStart = Date.now();
     if (answer.nextPort) {
       try {
         port = await getNextFreePort(port);
